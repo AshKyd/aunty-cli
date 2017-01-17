@@ -12,7 +12,9 @@
   "bin": {
     "aunty": "bin/aunty.js"
   },
-  "scripts": {},
+  "scripts": {
+    "format": "node dev/format"
+  },
   "engines": {
     "node": ">=4.2.0"
   },
@@ -26,5 +28,9 @@
     "ssh2": "^0.5.4",
     "vinyl-fs": "^2.4.4",
     "vinyl-ftp": "^0.5.0"
+  },
+  "devDependencies": {
+    "map-stream": "0.0.6",
+    "prettier": "0.0.7"
   }
 }
